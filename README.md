@@ -1,3 +1,8 @@
+# Домашнее задание "Микросервисы: принципы" - `Фомичев Анатолий`
+
+## Ссылка на Д3 - https://github.com/netology-code/micros-homeworks/blob/main/11-microservices-02-principles.md
+
+## Ссылка на репозиторий - https://github.com/SLzDevOps/netology-microservice-2/tree/main/api-gateway-demo
 
 
 ```
@@ -73,3 +78,26 @@ NATS ближе всех по духу к RabbitMQ (и быстрее его), �
 (Дополнительно) Потоки данных: Если в магазине появится потребность в сборе огромных логов/кликов для ML-моделей, тогда имеет смысл доставить Kafka в пару к RabbitMQ
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
