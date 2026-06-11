@@ -88,7 +88,7 @@ NATS ближе всех по духу к RabbitMQ (и быстрее его), �
 Ссылка на репозиторий - https://github.com/SLzDevOps/netology-microservice-2/tree/main/api-gateway-demo
 
 ![alt text](https://github.com/SLzDevOps/netology-microservice-2/blob/main/screens/Screenshot_904.png).
-![alt text](https://github.com/SLzDevOps/netology-microservice-2/blob/main/screens/Screenshot_904.png).
+![alt text](https://github.com/SLzDevOps/netology-microservice-2/blob/main/screens/Screenshot_906.png).
 
 
 
