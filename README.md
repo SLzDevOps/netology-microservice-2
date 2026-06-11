@@ -5,9 +5,10 @@
 ## Ссылка на репозиторий - https://github.com/SLzDevOps/netology-microservice-2/tree/main/api-gateway-demo
 
 
-```
 
-Задача 1: Выбор решения для API Gateway
+### Задача 1
+```
+Выбор решения для API Gateway
 Сравнительная таблица возможностей API Gateway
 ```
 | Критерий | NGINX | Kong (OSS) | Apache APISIX | Traefik |
@@ -37,9 +38,12 @@
 
 Почему не NGINX? В чистом виде NGINX — это отличный прокси, но он требует reload при изменении конфигурации и сложен в управлении динамической маршрутизацией (когда сервисы постоянно появляются и исчезают) .
 Почему не Kong? Kong — достойный выбор, но его архитектура с PostgreSQL/Cassandra добавляет задержки при обновлении конфигурации, а многие продвинутые фичи безопасности и плагинов требуют платной Enterprise-лицензии .
+```
+  
+### Задача 2
 
-
-Задача 2: Выбор решения для Брокера сообщений
+```
+Выбор решения для Брокера сообщений
 Сравнительная таблица возможностей брокеров сообщений
 
 ```
@@ -79,9 +83,12 @@ NATS ближе всех по духу к RabbitMQ (и быстрее его), �
 
 ```
 
+### Задача 3
 
+Ссылка на репозиторий - https://github.com/SLzDevOps/netology-microservice-2/tree/main/api-gateway-demo
 
-
+![alt text](https://github.com/SLzDevOps/netology-microservice-2/blob/main/screens/Screenshot_904.png).
+![alt text](https://github.com/SLzDevOps/netology-microservice-2/blob/main/screens/Screenshot_904.png).
 
 
 
