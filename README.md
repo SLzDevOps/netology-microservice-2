@@ -83,36 +83,6 @@ NATS ближе всех по духу к RabbitMQ (и быстрее его), �
 
 ```
 
-### Задача 3
-
-Ссылка на репозиторий - https://github.com/SLzDevOps/netology-microservice-2/tree/main/api-gateway-demo
-
-Команды для тестирования
-#### Записываем данные
-docker exec -it redis-m1 redis-cli set session:user:alice "active"
-docker exec -it redis-m2 redis-cli set session:user:bob "active"  
-docker exec -it redis-m3 redis-cli set session:user:charlie "active"
-
-#### Читаем данные с мастеров
-docker exec -it redis-m1 redis-cli get session:user:alice
-docker exec -it redis-m2 redis-cli get session:user:bob
-docker exec -it redis-m3 redis-cli get session:user:charlie
-
-#### Читаем данные с реплик
-docker exec -it redis-r1 redis-cli get session:user:charlie
-docker exec -it redis-r2 redis-cli get session:user:alice
-docker exec -it redis-r3 redis-cli get session:user:bob
-
-#### Проверяем распределение ключей по слотам
-docker exec -it redis-m1 redis-cli --cluster check redis-m1:6379
-
-
-![alt text](https://github.com/SLzDevOps/netology-microservice-2/blob/main/screens/Screenshot_904.png).
-![alt text](https://github.com/SLzDevOps/netology-microservice-2/blob/main/screens/Screenshot_906.png).
-
-
-
-
 
 
 
